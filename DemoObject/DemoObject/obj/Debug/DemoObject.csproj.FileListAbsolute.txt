@@ -1,0 +1,7 @@
+C:\Users\bikas\source\repos\DemoObject\DemoObject\bin\Debug\DemoObject.exe.config
+C:\Users\bikas\source\repos\DemoObject\DemoObject\bin\Debug\DemoObject.exe
+C:\Users\bikas\source\repos\DemoObject\DemoObject\bin\Debug\DemoObject.pdb
+C:\Users\bikas\source\repos\DemoObject\DemoObject\obj\Debug\DemoObject.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\DemoObject\DemoObject\obj\Debug\DemoObject.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\DemoObject\DemoObject\obj\Debug\DemoObject.exe
+C:\Users\bikas\source\repos\DemoObject\DemoObject\obj\Debug\DemoObject.pdb
