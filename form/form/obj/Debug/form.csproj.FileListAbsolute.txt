@@ -1,0 +1,10 @@
+C:\Users\bikas\source\repos\form\form\bin\Debug\form.exe.config
+C:\Users\bikas\source\repos\form\form\bin\Debug\form.exe
+C:\Users\bikas\source\repos\form\form\bin\Debug\form.pdb
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.mainform.resources
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.Properties.Resources.resources
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.csproj.GenerateResource.cache
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.exe
+C:\Users\bikas\source\repos\form\form\obj\Debug\form.pdb

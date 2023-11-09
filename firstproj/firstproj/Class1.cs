@@ -8,5 +8,6 @@ namespace firstproj
 {
     internal class Class1
     {
+
     }
 }
