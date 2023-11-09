@@ -19,10 +19,20 @@ namespace form
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            String messagetext = "Simple message text";
-            String messagetitle = "message title";
+            String messagetext = "Do you want to close window";
+            String messagetitle = "Close Window";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             //MessageBox.Show("simple message text");
-            MessageBox.Show(messagetext,messagetitle);
+            //MessageBox.Show(messagetext,messagetitle);
+            DialogResult result= MessageBox.Show(messagetext, messagetitle, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else if (result == DialogResult.No)
+            {
+                // DO nothing
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
