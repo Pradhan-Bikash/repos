@@ -1,0 +1,7 @@
+C:\Users\bikas\source\repos\TypeCast\TypeCast\obj\Debug\TypeCast.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\TypeCast\TypeCast\obj\Debug\TypeCast.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\TypeCast\TypeCast\bin\Debug\TypeCast.exe.config
+C:\Users\bikas\source\repos\TypeCast\TypeCast\bin\Debug\TypeCast.exe
+C:\Users\bikas\source\repos\TypeCast\TypeCast\bin\Debug\TypeCast.pdb
+C:\Users\bikas\source\repos\TypeCast\TypeCast\obj\Debug\TypeCast.exe
+C:\Users\bikas\source\repos\TypeCast\TypeCast\obj\Debug\TypeCast.pdb
