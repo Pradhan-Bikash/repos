@@ -1,0 +1,10 @@
+C:\Users\bikas\source\repos\IfElse\IfElse\bin\Debug\IfElse.exe.config
+C:\Users\bikas\source\repos\IfElse\IfElse\bin\Debug\IfElse.exe
+C:\Users\bikas\source\repos\IfElse\IfElse\bin\Debug\IfElse.pdb
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.Form1.resources
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.Properties.Resources.resources
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.csproj.GenerateResource.cache
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.exe
+C:\Users\bikas\source\repos\IfElse\IfElse\obj\Debug\IfElse.pdb

@@ -34,7 +34,7 @@
             // lblNameSurname
             // 
             lblNameSurname.AutoSize = true;
-            lblNameSurname.Location = new Point(195, 63);
+            lblNameSurname.Location = new Point(176, 72);
             lblNameSurname.Name = "lblNameSurname";
             lblNameSurname.Size = new Size(38, 15);
             lblNameSurname.TabIndex = 0;
