@@ -1,0 +1,10 @@
+C:\Users\bikas\source\repos\Method\Method\bin\Debug\Method.exe.config
+C:\Users\bikas\source\repos\Method\Method\bin\Debug\Method.exe
+C:\Users\bikas\source\repos\Method\Method\bin\Debug\Method.pdb
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.Form1.resources
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.Properties.Resources.resources
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.csproj.GenerateResource.cache
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.exe
+C:\Users\bikas\source\repos\Method\Method\obj\Debug\Method.pdb
