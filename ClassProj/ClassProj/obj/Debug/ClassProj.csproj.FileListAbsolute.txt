@@ -1,0 +1,11 @@
+C:\Users\bikas\source\repos\ClassProj\ClassProj\bin\Debug\ClassProj.exe.config
+C:\Users\bikas\source\repos\ClassProj\ClassProj\bin\Debug\ClassProj.exe
+C:\Users\bikas\source\repos\ClassProj\ClassProj\bin\Debug\ClassProj.pdb
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.Form1.resources
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.Properties.Resources.resources
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.csproj.GenerateResource.cache
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.exe
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.pdb
+C:\Users\bikas\source\repos\ClassProj\ClassProj\obj\Debug\ClassProj.Form2.resources
