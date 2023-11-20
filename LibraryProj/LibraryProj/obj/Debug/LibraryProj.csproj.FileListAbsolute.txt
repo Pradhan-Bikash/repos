@@ -1,0 +1,7 @@
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\bin\Debug\LibraryProj.exe.config
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\bin\Debug\LibraryProj.exe
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\bin\Debug\LibraryProj.pdb
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\obj\Debug\LibraryProj.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\obj\Debug\LibraryProj.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\obj\Debug\LibraryProj.exe
+C:\Users\bikas\source\repos\LibraryProj\LibraryProj\obj\Debug\LibraryProj.pdb
