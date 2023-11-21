@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C6DCA2AC-F732-400B-AB94-B9A6A0ED9775}</ProjectGuid>
+    <ProjectGuid>{7E2B5F61-AC8D-4EC7-9312-FE2EB856F74D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LibraryProj</RootNamespace>
-    <AssemblyName>LibraryProj</AssemblyName>
+    <RootNamespace>Project3</RootNamespace>
+    <AssemblyName>Project3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book.cs" />
-    <Compile Include="Chair.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Table.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
