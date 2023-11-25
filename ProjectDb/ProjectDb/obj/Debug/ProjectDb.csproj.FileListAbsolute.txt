@@ -1,0 +1,7 @@
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\bin\Debug\ProjectDb.exe.config
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\bin\Debug\ProjectDb.exe
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\bin\Debug\ProjectDb.pdb
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\obj\Debug\ProjectDb.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\obj\Debug\ProjectDb.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\obj\Debug\ProjectDb.exe
+C:\Users\bikas\source\repos\ProjectDb\ProjectDb\obj\Debug\ProjectDb.pdb

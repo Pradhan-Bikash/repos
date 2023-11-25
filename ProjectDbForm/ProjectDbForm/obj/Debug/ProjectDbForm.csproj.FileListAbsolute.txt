@@ -1,0 +1,10 @@
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\bin\Debug\ProjectDbForm.exe.config
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\bin\Debug\ProjectDbForm.exe
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\bin\Debug\ProjectDbForm.pdb
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.Form1.resources
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.Properties.Resources.resources
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.csproj.GenerateResource.cache
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.exe
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.pdb
