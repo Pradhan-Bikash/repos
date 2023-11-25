@@ -1,0 +1,8 @@
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\bin\Debug\ProjectTest.exe.config
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\bin\Debug\ProjectTest.exe
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\bin\Debug\ProjectTest.pdb
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\obj\Debug\ProjectTest.csproj.AssemblyReference.cache
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\obj\Debug\ProjectTest.csproj.SuggestedBindingRedirects.cache
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\obj\Debug\ProjectTest.csproj.CoreCompileInputs.cache
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\obj\Debug\ProjectTest.exe
+C:\dev\ProjectTest\ProjectTest\ProjectTest\ProjectTest\obj\Debug\ProjectTest.pdb
