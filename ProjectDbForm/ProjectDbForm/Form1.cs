@@ -57,7 +57,7 @@ namespace ProjectDbForm
             }
             else
             {
-                MessageBox.Show("Please enter name only you want to Delete");
+                MessageBox.Show("Please enter  name only you want to Delete");
             }
         }
 
@@ -68,22 +68,46 @@ namespace ProjectDbForm
 
         private void button5_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text != "")
+            SqlConnection con = null;
+            try
             {
-                SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-                con.Open();
-                SqlCommand cmd = new SqlCommand("Select * from UserTab where Name=@Name", con);
-                cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                dataGridView1.DataSource = dt;
-            }
-            else
-            {
-                MessageBox.Show("Enter the name only you want to Search");
-            }
+                if (textBox2.Text != "")
+                {
+                     con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("Select * from UserTab where Name=@Name", con);
+                    cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                    con.Close();
+                }
+                else
+                {
 
+                   con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
+                    con.Open();
+                    SqlCommand cmd = new SqlCommand("Select * from UserTab ", con);
+                    //cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable();
+                    da.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                    con.Close();
+                }
+            }
+            catch(Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                if(con != null)
+                {
+                    con.Dispose();
+                }
+            }
         }
     }
 }
