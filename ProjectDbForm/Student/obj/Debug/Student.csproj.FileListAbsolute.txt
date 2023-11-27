@@ -1,0 +1,6 @@
+C:\Users\bikas\source\repos\ProjectDbForm\Student\bin\Debug\Student.dll
+C:\Users\bikas\source\repos\ProjectDbForm\Student\bin\Debug\Student.pdb
+C:\Users\bikas\source\repos\ProjectDbForm\Student\obj\Debug\Student.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\ProjectDbForm\Student\obj\Debug\Student.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\ProjectDbForm\Student\obj\Debug\Student.dll
+C:\Users\bikas\source\repos\ProjectDbForm\Student\obj\Debug\Student.pdb

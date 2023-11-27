@@ -1,0 +1,6 @@
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\bin\Debug\DatabaseLib2.dll
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\bin\Debug\DatabaseLib2.pdb
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\obj\Debug\DatabaseLib2.csproj.AssemblyReference.cache
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\obj\Debug\DatabaseLib2.csproj.CoreCompileInputs.cache
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\obj\Debug\DatabaseLib2.dll
+C:\Users\bikas\source\repos\ProjectDbForm\DatabaseLib2\obj\Debug\DatabaseLib2.pdb

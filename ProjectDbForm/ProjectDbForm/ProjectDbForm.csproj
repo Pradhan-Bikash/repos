@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseLib2\DatabaseLib2.csproj">
+      <Project>{42da0e3d-ca73-4c22-b742-c63fc805858c}</Project>
+      <Name>DatabaseLib2</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,6 @@ C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.
 C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.csproj.CoreCompileInputs.cache
 C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.exe
 C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.pdb
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\obj\Debug\ProjectDbForm.csproj.CopyComplete
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\bin\Debug\DatabaseLib2.dll
+C:\Users\bikas\source\repos\ProjectDbForm\ProjectDbForm\bin\Debug\DatabaseLib2.pdb

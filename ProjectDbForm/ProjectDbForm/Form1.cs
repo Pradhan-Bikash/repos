@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DatabaseLib2;
 
 namespace ProjectDbForm
 {
@@ -17,48 +18,38 @@ namespace ProjectDbForm
         {
             InitializeComponent();
         }
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-           con.Open();
-            SqlCommand cmd = new SqlCommand("insert into UserTab values(@ID,@Name,@age)", con);
-            cmd.Parameters.AddWithValue("@ID",int.Parse(textBox1.Text));
-            cmd.Parameters.AddWithValue("@Name",(textBox2.Text));
-            cmd.Parameters.AddWithValue("@Age",int.Parse(textBox3.Text));
-            cmd.ExecuteNonQuery();
-            con.Close();
-            MessageBox.Show("Successfully Saved");
+           DatabaseManager dm=new DatabaseManager();
+            StudentDTO sd = new StudentDTO();
+            sd.Id = Convert.ToInt32(textBox1.Text);
+            sd.Name =textBox2.Text;
+            sd.Age =Convert.ToInt32( textBox3.Text);
+            dm.insertStudent(sd);
+            MessageBox.Show("Successfully Stored");
+           
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-            con.Open();
-            SqlCommand cmd = new SqlCommand("Update UserTab set Name = @Name,Age=@Age where ID = @ID", con);
-            cmd.Parameters.AddWithValue("@ID", int.Parse(textBox1.Text));
-            cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
-            cmd.Parameters.AddWithValue("@Age", int.Parse(textBox3.Text));
-            cmd.ExecuteNonQuery();
-            con.Close();
+            DatabaseManager dm = new DatabaseManager();
+            StudentDTO sd = new StudentDTO();
+            sd.Id = Convert.ToInt32(textBox1.Text);
+            sd.Name = textBox2.Text;
+            sd.Age = Convert.ToInt32(textBox3.Text);
+            dm.updateStudent(sd);
             MessageBox.Show("Successfully Updated");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if(textBox2.Text != "") { 
-            SqlConnection con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-            con.Open();
-            SqlCommand cmd = new SqlCommand("Delete UserTab where Name=@Name", con);
-            cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
-            cmd.ExecuteNonQuery();
-            con.Close();
-            MessageBox.Show("Successfully Deleted");
-            }
-            else
-            {
-                MessageBox.Show("Please enter  name only you want to Delete");
-            }
+            DatabaseManager dm = new DatabaseManager();
+            StudentDTO sd = new StudentDTO();
+            sd.Id = Convert.ToInt32(textBox1.Text);
+            
+            dm.deleteStudent(sd);
+           
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -85,8 +76,7 @@ namespace ProjectDbForm
                 }
                 else
                 {
-
-                   con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
+                    con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
                     con.Open();
                     SqlCommand cmd = new SqlCommand("Select * from UserTab ", con);
                     //cmd.Parameters.AddWithValue("@Name", (textBox2.Text));

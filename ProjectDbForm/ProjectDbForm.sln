@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectDbForm", "ProjectDbForm\ProjectDbForm.csproj", "{6CE3347C-9CC4-4AFE-9842-D8A45CC086AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLib2", "DatabaseLib2\DatabaseLib2.csproj", "{42DA0E3D-CA73-4C22-B742-C63FC805858C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6CE3347C-9CC4-4AFE-9842-D8A45CC086AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE3347C-9CC4-4AFE-9842-D8A45CC086AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE3347C-9CC4-4AFE-9842-D8A45CC086AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DA0E3D-CA73-4C22-B742-C63FC805858C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DA0E3D-CA73-4C22-B742-C63FC805858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DA0E3D-CA73-4C22-B742-C63FC805858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DA0E3D-CA73-4C22-B742-C63FC805858C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
