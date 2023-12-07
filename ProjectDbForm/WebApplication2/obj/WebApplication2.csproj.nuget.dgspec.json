@@ -1,0 +1,123 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj",
+        "projectName": "DatabaseLib3",
+        "projectPath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj",
+        "packagesPath": "C:\\Users\\bikas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj",
+        "projectName": "WebApplication2",
+        "projectPath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj",
+        "packagesPath": "C:\\Users\\bikas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj": {
+                "projectPath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

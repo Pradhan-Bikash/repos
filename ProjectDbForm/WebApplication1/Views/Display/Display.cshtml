@@ -1,0 +1,28 @@
+﻿@model WebApplication1.Models.DisplayModel
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<table >
+    <thead>
+    <th style ="border:1px solid black">Student ID</thstyle>
+    <th style="border:1px solid black">Student Name</th>
+    <th style="border:1px solid black">Student Age</th>
+    </thead>
+    <tbody >
+
+    @foreach(var item in Model.Students)
+    {
+       <tr>
+                <td style="border:1px solid black">@item.Id</td>
+                <td style="border:1px solid black">@item.Name</td>
+                <td style="border:1px solid black">@item.Age</td>
+            </tr>
+    };
+    </tbody>
+
+</table>
+ 

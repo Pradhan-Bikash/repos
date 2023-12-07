@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -80,9 +82,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DatabaseLib2\DatabaseLib2.csproj">
-      <Project>{42da0e3d-ca73-4c22-b742-c63fc805858c}</Project>
-      <Name>DatabaseLib2</Name>
+    <ProjectReference Include="..\DatabaseLib3\DatabaseLib3.csproj">
+      <Project>{a28b700f-1ec8-4cb5-9855-51c8b545ee87}</Project>
+      <Name>DatabaseLib3</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

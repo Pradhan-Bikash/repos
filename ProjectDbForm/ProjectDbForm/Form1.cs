@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using DatabaseLib2;
+using DatabaseLib3;
 
 namespace ProjectDbForm
 {
@@ -33,13 +33,29 @@ namespace ProjectDbForm
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DatabaseManager dm = new DatabaseManager();
-            StudentDTO sd = new StudentDTO();
-            sd.Id = Convert.ToInt32(textBox1.Text);
-            sd.Name = textBox2.Text;
-            sd.Age = Convert.ToInt32(textBox3.Text);
-            dm.updateStudent(sd);
-            MessageBox.Show("Successfully Updated");
+            try
+            {
+                DatabaseManager dm = new DatabaseManager();
+                StudentDTO sd = new StudentDTO();
+                sd.Id = Convert.ToInt32(textBox1.Text);
+                sd.Name = textBox2.Text;
+                sd.Age = Convert.ToInt32(textBox3.Text);
+                int i = dm.updateStudent(sd);
+
+                if (i > 0)
+                {
+
+                    MessageBox.Show("Successfully Updated");
+                }
+                else
+                {
+                    MessageBox.Show("Update failed");
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -59,45 +75,11 @@ namespace ProjectDbForm
 
         private void button5_Click(object sender, EventArgs e)
         {
-            SqlConnection con = null;
-            try
-            {
-                if (textBox2.Text != "")
-                {
-                     con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("Select * from UserTab where Name=@Name", con);
-                    cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
-                    DataTable dt = new DataTable();
-                    da.Fill(dt);
-                    dataGridView1.DataSource = dt;
-                    con.Close();
-                }
-                else
-                {
-                    con = new SqlConnection("Data Source=.;Initial Catalog=MyTestDB;Integrated Security=True;Pooling=False");
-                    con.Open();
-                    SqlCommand cmd = new SqlCommand("Select * from UserTab ", con);
-                    //cmd.Parameters.AddWithValue("@Name", (textBox2.Text));
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
-                    DataTable dt = new DataTable();
-                    da.Fill(dt);
-                    dataGridView1.DataSource = dt;
-                    con.Close();
-                }
-            }
-            catch(Exception ex) 
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                if(con != null)
-                {
-                    con.Dispose();
-                }
-            }
+
+            DatabaseManager dm = new DatabaseManager();
+            StudentDTO sd = new StudentDTO();
+            sd.Name=textBox2.Text;
+         dataGridView1.DataSource = dm.searchStudent(sd);
         }
     }
 }
