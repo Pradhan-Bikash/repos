@@ -6,6 +6,8 @@
 @model List<FirstProjectMvc.Models.Employee>
 <h2>Index</h2>
 
+<a href="@Url.RouteUrl("Category", new {@Title="Programming"})" ><strong>Category</strong></a>
+<a href="@Url.RouteUrl("Detail", new {@Title="Programming",@DetailName="Python-Programming"})" ><strong>Detail Page</strong></a>
 <table>
     <tr>
         <th>ID</th>
@@ -15,7 +17,7 @@
         @foreach(var item in Model)
             {
                 <tr>
-                    <td>@item.ID</td>
+                    <td>@item.Id</td>
                     <td>@item.Name</td>
                     <td>@item.Salary</td>
                 </tr>

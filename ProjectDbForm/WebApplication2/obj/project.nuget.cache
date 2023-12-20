@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "b+t45BAZYG27re/t9jLo4GW1xVa1D3pQ5IfZZUN9WcSCfaMritoocE1LiWw468c8aAorap5AMkkFbvaECPANjw==",
+  "dgSpecHash": "G2zkD2C88gK4lOxX3t93i+yIDNyxrbtn/62sAm2seR/eqoxJr4bLcUrHdaiZDw4Uv8R8ai+dIvpZGkBPj2fqkA==",
   "success": false,
-  "projectFilePath": "C:\\Users\\bikas\\source\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\bikas\\source\\repos\\repos\\ProjectDbForm\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bikas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\bikas\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bikas\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\bikas\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\bikas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\bikas\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": [
     {
-      "code": "NU1201",
+      "code": "NU1104",
       "level": "Error",
-      "message": "Project DatabaseLib3 is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project DatabaseLib3 supports: net8.0 (.NETCoreApp,Version=v8.0)",
-      "libraryId": "DatabaseLib3",
+      "message": "Unable to find project 'C:\\Users\\bikas\\source\\repos\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\bikas\\source\\repos\\repos\\ProjectDbForm\\DatabaseLib3\\DatabaseLib3.csproj",
       "targetGraphs": [
         "net6.0"
       ]
